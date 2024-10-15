@@ -3,9 +3,9 @@
 Coroutine to measure runtime
 """
 import asyncio
-import random
 import time
 from typing import List
+from importlib import import_module as using
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 
