@@ -12,5 +12,5 @@ async def async_comprehension() -> List[int]:
     """
     this function collect list from a async generator
     """
-    collect: List[int]  = [num async for num in async_generator()]
+    collect: List[int] = [num async for num in async_generator()]
     return collect
